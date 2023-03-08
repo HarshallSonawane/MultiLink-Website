@@ -1,0 +1,162 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #666;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2em auto;
+	max-width: 1000px;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 2em;
+	margin: 1em;
+	width: 300px;
+	text-align: center;
+}
+
+.card h2 {
+	margin-bottom: 1em;
+	color: #333;
+}
+
+.card p {
+	margin-bottom: 2em;
+	color: #777;
+}
+
+.cta {
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 2em;
+	margin: 2em auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.cta h2 {
+	margin-bottom: 1em;
+	color: #333;
+}
+
+.cta p {
+	margin-bottom: 2em;
+	color: #777;
+}
+
+/* inspired form gumroad website */
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
+  
+/* Header styles */
+header {
+	background-image: url("/images/img3.jpg");
+	background-size: cover;
+	background-position: center;
+	color: whitesmoke;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+header background-image{
+    filter: blur(50px);
+}
+
+header h1 {
+	font-size: 3em;
+	margin-bottom: 0.5em;
+}
+
+header p {
+	font-size: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+/* Navigation styles */
+nav {
+	background-color: #333;
+	padding: 1em;
+	display: flex;
+	justify-content:left;
+	align-items: center;
+}
+
+nav a {
+	color: #fff;
+	font-weight: bold;
+	padding: 0.5em;
+	transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #666;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
