@@ -10,6 +10,7 @@ body {
 	line-height: 1.5;
 	background-color: #f7f7f7;
 	color: #333;
+	background-color: whitesmoke;
 }
 
 a {
@@ -58,13 +59,51 @@ a {
 	color: #777;
 }
 
+/*About */
+.about {
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 2em;
+	margin: 1em auto;
+	max-width: 965px;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.about img{
+	width: 300px;
+	justify-content: left;
+	border-radius: 30px;
+	padding: auto;
+	margin: auto;
+	display: flex;
+}
+.about h2 {
+	justify-content: left;
+	margin-bottom: 1em;
+	color: #333;
+}
+
+.about p {
+	margin-bottom: 2em;
+	color: #777;
+	justify-content: center;	
+}
+
+.about a{
+	padding: auto;
+	margin: auto;
+	margin-top: 80%;
+}
+
 .cta {
 	background-color: #fff;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 	padding: 2em;
 	margin: 2em auto;
-	max-width: 800px;
+	max-width: 965px;
 	text-align: center;
 }
 
@@ -81,7 +120,7 @@ a {
 /* inspired form gumroad website */
 .button {
     --bg: #000;
-    --hover-bg: #ff90e8;
+    --hover-bg: #bf62e6;
     --hover-text: #000;
     color: #fff;
     border: 1px solid var(--bg);
@@ -117,6 +156,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header background-image{
@@ -131,6 +171,8 @@ header h1 {
 header p {
 	font-size: 1.5em;
 	margin-bottom: 1.5em;
+	background-color: #333;
+	border-radius: 8px;
 }
 
 /* Navigation styles */
