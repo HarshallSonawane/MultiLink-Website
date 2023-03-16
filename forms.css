@@ -5,13 +5,19 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 	line-height: 1.5;
 	background-color: #f7f7f7;
 	color: #333;
 	background-color: whitesmoke;
 }
 
+h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
 form {
     max-width: 500px;
     margin: 0 auto;
